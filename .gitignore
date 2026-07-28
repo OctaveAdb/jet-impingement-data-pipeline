@@ -1,0 +1,91 @@
+# =============================================================================
+# HARD DATA / RESULTS GUARD
+# -----------------------------------------------------------------------------
+# This repository is CODE / METHOD ONLY. The underlying study is under journal
+# peer review, so NO measured data and NO results may be committed. The patterns
+# below are a safety net: keep them, and never force-add anything they match.
+# =============================================================================
+
+# --- Raw & reduced measurement data -----------------------------------------
+*.th
+*.thA
+*.tha
+*.asA
+*.asa
+*.csv
+*.tsv
+*.mat
+*.dat
+*.pl2
+*.pls
+*.picolog
+*.log
+
+# --- Spreadsheets / configs holding rig, calibration or result values --------
+*.xls
+*.xlsx
+*.xlsm
+*.ods
+
+# --- Figures / result artefacts ----------------------------------------------
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tif
+*.tiff
+*.pdf
+*.svg
+*.eps
+
+# --- Data / result directories (any depth) -----------------------------------
+**/experiments/
+**/thermal/
+**/pumping_penalty/
+**/new_data/
+**/raw_data/
+**/raw_inputs/
+**/Processed_CSVs/
+**/Processing_Parameters/
+**/1D_Profiles_Results/
+**/2D_Profiles_Results/
+**/Frequency_Results/
+**/results/
+**/Figures/
+**/figures/
+**/summary/
+**/config/
+**/Velocity Calibration*/
+**/vertical_checkup/*.png
+**/vertical_checkup/*.xlsx
+
+# --- Docs that may carry methodology/results notes ---------------------------
+knowledge/
+inputs/
+outputs/
+docs/
+*_ANALYSIS.md
+UNCERTAINTY_SPEC.md
+PROTOCOL*.md
+
+# --- Python housekeeping -----------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# --- OS / editor -------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~

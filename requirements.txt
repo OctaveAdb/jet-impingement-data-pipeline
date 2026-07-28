@@ -1,0 +1,8 @@
+# Runtime dependencies for the jet-impingement data-reduction pipeline.
+# Python 3.10+ recommended. tkinter ships with the standard CPython installer.
+numpy
+pandas
+scipy
+matplotlib
+openpyxl
+Pillow
